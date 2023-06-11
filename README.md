@@ -1,4 +1,4 @@
-# EasyUI
+# Jaxk\EasyUI
 
 EasyUI is an intuitive and easy-to-use form library for PocketMine-MP. Designed to let you focus on your project and not on how the library works.
 
@@ -6,7 +6,7 @@ EasyUI is an intuitive and easy-to-use form library for PocketMine-MP. Designed 
 
 ### General rules
 
-All the closures passed to EasyUI classes must declare a variable of the class Player as first and only argument, except for the CustomForm submit listener, which also requires FormResponse as second parameter.
+All the closures passed to Jaxk\EasyUI classes must declare a variable of the class Player as first and only argument, except for the CustomForm submit listener, which also requires FormResponse as second parameter.
 
 ### SimpleForm
 

@@ -9,7 +9,7 @@
 declare(strict_types=1);
 
 
-namespace EasyUI;
+namespace Jaxk\EasyUI;
 
 
 use pocketmine\form\Form as PmForm;

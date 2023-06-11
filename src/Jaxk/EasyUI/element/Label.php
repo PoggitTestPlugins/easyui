@@ -9,20 +9,25 @@
 declare(strict_types=1);
 
 
-namespace EasyUI\element;
+namespace Jaxk\EasyUI\element;
 
 
-class StepSlider extends Selector {
+class Label extends Element {
+
+    public function __construct(string $headerText) {
+        parent::__construct($headerText);
+    }
 
     public function getType(): string {
-        return Element::TYPE_STEP_SLIDER;
+        return Element::TYPE_LABEL;
+    }
+
+    public function assignResult($result): void {
+        // noop
     }
 
     public function serializeBody(): array {
-        return [
-            "steps" => $this->getOptionsTexts(),
-            "default" => $this->getDefaultIndex()
-        ];
+        return [];
     }
 
 }

@@ -9,19 +9,11 @@
 declare(strict_types=1);
 
 
-namespace EasyUI\utils;
+namespace Jaxk\EasyUI;
 
 
-use pocketmine\player\Player;
+use pocketmine\plugin\PluginBase;
 
-trait Submittable {
-    use SubmitListener;
-
-    public function notifySubmit(Player $player): void {
-        $this->executeSubmitListener($player);
-        $this->onSubmit($player);
-    }
-
-    protected function onSubmit(Player $player): void {}
+class Jaxk\EasyUI extends PluginBase {
 
 }

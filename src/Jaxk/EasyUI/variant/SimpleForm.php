@@ -9,12 +9,12 @@
 declare(strict_types=1);
 
 
-namespace EasyUI\variant;
+namespace Jaxk\EasyUI\variant;
 
 
-use EasyUI\element\Button;
-use EasyUI\Form;
-use EasyUI\utils\Closable;
+use Jaxk\EasyUI\element\Button;
+use Jaxk\EasyUI\Form;
+use Jaxk\EasyUI\utils\Closable;
 use pocketmine\form\FormValidationException;
 use pocketmine\player\Player;
 

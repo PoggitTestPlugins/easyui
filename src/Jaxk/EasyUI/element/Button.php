@@ -9,12 +9,12 @@
 declare(strict_types=1);
 
 
-namespace EasyUI\element;
+namespace Jaxk\EasyUI\element;
 
 
 use Closure;
-use EasyUI\icon\ButtonIcon;
-use EasyUI\utils\Submittable;
+use Jaxk\EasyUI\icon\ButtonIcon;
+use Jaxk\EasyUI\utils\Submittable;
 use JsonSerializable;
 
 class Button implements JsonSerializable {

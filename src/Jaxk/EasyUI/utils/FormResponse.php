@@ -9,16 +9,16 @@
 declare(strict_types=1);
 
 
-namespace EasyUI\utils;
+namespace Jaxk\EasyUI\utils;
 
 
-use EasyUI\element\Dropdown;
-use EasyUI\element\Element;
-use EasyUI\element\Input;
-use EasyUI\element\Selector;
-use EasyUI\element\Slider;
-use EasyUI\element\StepSlider;
-use EasyUI\element\Toggle;
+use Jaxk\EasyUI\element\Dropdown;
+use Jaxk\EasyUI\element\Element;
+use Jaxk\EasyUI\element\Input;
+use Jaxk\EasyUI\element\Selector;
+use Jaxk\EasyUI\element\Slider;
+use Jaxk\EasyUI\element\StepSlider;
+use Jaxk\EasyUI\element\Toggle;
 use InvalidArgumentException;
 use ReflectionClass;
 use ReflectionException;
