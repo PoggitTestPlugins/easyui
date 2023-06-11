@@ -14,6 +14,6 @@ namespace Jaxk\EasyUI;
 
 use pocketmine\plugin\PluginBase;
 
-class Jaxk\EasyUI extends PluginBase {
+class EasyUI extends PluginBase {
 
 }
