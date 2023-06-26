@@ -9,10 +9,10 @@
 declare(strict_types=1);
 
 
-namespace Jaxk\EasyUI\element;
+namespace EasyUI\element;
 
 
-use Jaxk\EasyUI\utils\Submittable;
+use EasyUI\utils\Submittable;
 
 class ModalOption {
     use Submittable;

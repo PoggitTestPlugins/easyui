@@ -9,7 +9,7 @@
 declare(strict_types=1);
 
 
-namespace Jaxk\EasyUI\element;
+namespace EasyUI\element;
 
 
 class Input extends Element {

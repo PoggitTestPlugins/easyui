@@ -9,12 +9,12 @@
 declare(strict_types=1);
 
 
-namespace Jaxk\EasyUI\variant;
+namespace EasyUI\variant;
 
 
 use Closure;
-use Jaxk\EasyUI\element\ModalOption;
-use Jaxk\EasyUI\Form;
+use EasyUI\element\ModalOption;
+use EasyUI\Form;
 use pocketmine\form\FormValidationException;
 use pocketmine\player\Player;
 

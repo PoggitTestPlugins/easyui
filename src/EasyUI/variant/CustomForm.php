@@ -9,14 +9,14 @@
 declare(strict_types=1);
 
 
-namespace Jaxk\EasyUI\variant;
+namespace EasyUI\variant;
 
 
 use Closure;
-use Jaxk\EasyUI\element\Element;
-use Jaxk\EasyUI\Form;
-use Jaxk\EasyUI\utils\Closable;
-use Jaxk\EasyUI\utils\FormResponse;
+use EasyUI\element\Element;
+use EasyUI\Form;
+use EasyUI\utils\Closable;
+use EasyUI\utils\FormResponse;
 use pocketmine\player\Player;
 use pocketmine\utils\Utils;
 

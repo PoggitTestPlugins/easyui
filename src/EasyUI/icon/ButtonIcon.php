@@ -9,7 +9,7 @@
 declare(strict_types=1);
 
 
-namespace Jaxk\EasyUI\icon;
+namespace EasyUI\icon;
 
 
 use JsonSerializable;

@@ -9,19 +9,11 @@
 declare(strict_types=1);
 
 
-namespace Jaxk\EasyUI\utils;
+namespace EasyUI;
 
 
-use pocketmine\player\Player;
+use pocketmine\plugin\PluginBase;
 
-trait Closable {
-    use CloseListener;
-
-    public function notifyClose(Player $player): void {
-        $this->executeCloseListener($player);
-        $this->onClose($player);
-    }
-
-    protected function onClose(Player $player): void {}
+class EasyUI extends PluginBase {
 
 }

@@ -9,20 +9,25 @@
 declare(strict_types=1);
 
 
-namespace Jaxk\EasyUI\element;
+namespace EasyUI\element;
 
 
-class Dropdown extends Selector {
+class Label extends Element {
+
+    public function __construct(string $headerText) {
+        parent::__construct($headerText);
+    }
 
     public function getType(): string {
-        return Element::TYPE_DROPDOWN;
+        return Element::TYPE_LABEL;
+    }
+
+    public function assignResult($result): void {
+        // noop
     }
 
     public function serializeBody(): array {
-        return [
-            "options" => $this->getOptionsTexts(),
-            "default" => $this->getDefaultIndex()
-        ];
+        return [];
     }
 
 }

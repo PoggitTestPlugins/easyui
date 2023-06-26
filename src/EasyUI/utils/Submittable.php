@@ -9,7 +9,7 @@
 declare(strict_types=1);
 
 
-namespace Jaxk\EasyUI\utils;
+namespace EasyUI\utils;
 
 
 use pocketmine\player\Player;
